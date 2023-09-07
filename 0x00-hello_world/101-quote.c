@@ -1,9 +1,9 @@
 # include <unistd.h>
 /**
- * main - Entry Point
+ * main - Entry point
  *
  * Description: print a quote using write func
- * write(start, the looping array, end)
+ *	 write(start, the looping array, end)
  *
  * Return : 1 (not success)
 */
