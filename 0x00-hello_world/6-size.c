@@ -3,7 +3,7 @@
 /**
   * main - Entry point
   *
-  * Description: A C program that prints with put function.
+  * Description: A C program that prints the size of some of a variables.
   *
   * Return: Always 0 (Success)
 */
