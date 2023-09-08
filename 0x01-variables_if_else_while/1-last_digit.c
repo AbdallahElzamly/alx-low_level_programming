@@ -14,24 +14,23 @@
 
 int main(void)
 {
-	int n;
+	int n, j;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int j;
-
 	j = n % 10;
-	if (n % 10 > 5)
+
+	if (j > 5)
 	{
-		printf("Last digit of %d and is %d and is greater than 5\n", n, j);
+		printf("Last digit of %i and is %i and is greater than 5\n", n, j);
 	}
-	else if (n % 10 == 0)
+	else if (j == 0)
 	{
-		printf("Last digit of %d and is 0\n", n);
+		printf("Last digit of %i and is %i and is 0\n", n, j);
 	}
-	else if (n < 0)
+	else
 	{
-		printf("Last digit of %d is -%d and is less than 6 and not 0\n", n, j);
+		printf("Last digit of %i and is %i and is less than 6 and not 0\n", n, j);
 	}
 	return (0);
 }
