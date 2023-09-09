@@ -12,13 +12,13 @@
 
 int main(void)
 {
-	ch = '0';
+	char ch = '0';
+
 	while (ch <= '10')
 	{
 		putchar(ch);
 		ch++;
 	}
 	putchar('\n');
-	
 	return (0);
 }
