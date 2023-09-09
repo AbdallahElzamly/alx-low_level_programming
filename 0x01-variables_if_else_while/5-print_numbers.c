@@ -18,7 +18,7 @@ int main(void)
 	{
 		printf("%i", i);
 		i++;
-	}	
+	}
 	putchar('\n');
 	return (0);
 }
