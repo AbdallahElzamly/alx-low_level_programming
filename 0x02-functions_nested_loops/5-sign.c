@@ -4,7 +4,7 @@
  * print_sign - function to check if
  * character is an alphabetical char
  *
- * @c: checks input of function
+ * @n: checks input of function
  *
  * Return: 1 if 'n' is Positive
  * -1 if 'n' is negtive
