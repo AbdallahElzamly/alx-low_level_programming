@@ -17,8 +17,8 @@ void times_table(void)
 			_putchar(' ');
 			prod = mult * num;
 			/*
-			 If it's a single number less than 9 print a ".." before it
-			 otherwise take the first digit
+			* If it's a single number less than 9 print a ".." before it
+			* otherwise take the first digit
 			*/
 			if (prod <= 9)
 				_putchar(' ');
