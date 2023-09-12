@@ -6,8 +6,9 @@
  *
  * @c: checks input of function
  *
- * Return: 1 if 'n' is lowercase
- * otherwise 0
+ * Return: 1 if 'n' is Positive
+ * -1 if 'n' is negtive
+ * otherwise 0 if 'n' is zero
 */
 
 int print_sign(int n)
