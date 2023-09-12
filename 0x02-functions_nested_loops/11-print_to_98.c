@@ -8,14 +8,18 @@
 void print_to_98(int n)
 {
 	int c;
-	//case 1 n > 98
+	/*
+	 case 1 n > 98
+	 */
 	if (n > 98)
 	{
-	for (c = n; n > 98; c--)
+	for (c = n; c > 98; c--)
 		printf("%d, ", c);
 	}
-	//case 2 n < 98
-	for (c = n; n < 98; c++)
+	/*
+	 * case 2 n < 98
+	*/
+	for (c = n; c < 98; c++)
 		printf("%d, ", c);
-	printf("98\n")
+	printf("98\n";)
 }
