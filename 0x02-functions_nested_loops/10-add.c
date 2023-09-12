@@ -2,7 +2,8 @@
 
 /**
  * add - add to variables
- * @a, @b: inputs to be added
+ * @a: inputs to be added
+ * @b: inputs to be added
  * Return: the summation
 */
 int add(int a, int b)
