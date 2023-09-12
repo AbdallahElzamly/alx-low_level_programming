@@ -7,13 +7,12 @@
 /**
   * main - Entry point
   *
-  * Description: Check if the last number is negative or positive or zero
+  * Description: prints _putchar using putchar prototype
   *
   * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	printf("_putchar\n");
-	return (0);
+	
 }
