@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**
+/*
+ * Description:
  * print_alpphabet - utilitzes on the _putchar funtion to print
  * the alphabet a - x
  *
