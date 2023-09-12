@@ -1,19 +1,15 @@
 #include "main.h"
 
 /**
- * _abs - function to check if
- * character is an alphabetical char
- *
+ * print_last_digit - function to print the 
+ * last digit
+ * 
  * @n: checks input of function
  *
- * Return: 1 if 'n' is Positive
- * -1 if 'n' is negtive
- * otherwise 0 if 'n' is zero
+ * Return: last digit
 */
 
-int _abs(int n)
+int print_last_digit(int n)
 {
-	if (n < 0)
-		n = (-1) * n;
-	return (n);
+        return (n % 10);
 }
