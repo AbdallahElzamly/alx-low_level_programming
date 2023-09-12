@@ -23,7 +23,6 @@ int main(void)
 			{
 				putchar(d1 + 48);
 				putchar(d2 + 48);
-			
 				if (d1 + d2 != 17)
 				{
 					putchar(',');
@@ -32,8 +31,7 @@ int main(void)
 			}
 			d2++;
 		}
-		d1++;
-		
+		d1++;		
 	}
 	putchar('\n');
 	return (0);
