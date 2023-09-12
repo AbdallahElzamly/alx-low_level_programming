@@ -6,7 +6,6 @@
  * the alphabet a - x
  *
  */
-
 void print_alphabet(void)
 {
 	int ch;
