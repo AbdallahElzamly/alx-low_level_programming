@@ -39,7 +39,7 @@ int main(void)
 				d3++;
                         }
 			d2++;
-                }
+		}
 		d1++;
 	}
 	putchar('\n');
