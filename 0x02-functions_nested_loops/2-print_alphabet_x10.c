@@ -3,7 +3,7 @@
 /* betty style doc for function main goes there */
 
 /**
-  * print_alphabet_10x - Entry point
+  * print_alphabet_x10 - Entry point
   *
   * Description: Print all lowercase alphabet 10x
   *
