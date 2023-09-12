@@ -23,17 +23,19 @@ int main(void)
 			{
 				putchart(d1 + 48);
 				putchart(d2 + 48);
-			}
-			if (d1 + d2 != 17)
-			{
-				putchar(',');
-				putchar(' ');
+			
+				if (d1 + d2 != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 			d2++;
 		}
-
 		d1++;
+		
 	}
+	putchar('\n');
 	return (0);
 }
 
