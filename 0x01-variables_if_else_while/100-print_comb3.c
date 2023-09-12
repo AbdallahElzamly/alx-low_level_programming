@@ -21,8 +21,8 @@ int main(void)
 		{
 			if (d1 < d2 && d1 != d2)
 			{
-				putchart(d1 + 48);
-				putchart(d2 + 48);
+				putchar(d1 + 48);
+				putchar(d2 + 48);
 			
 				if (d1 + d2 != 17)
 				{
