@@ -6,7 +6,7 @@
  *
  * @c: checks input of function
  *
- * Return: 1 if 'c' is lowercase
+ * Return: 1 if 'n' is lowercase
  * otherwise 0
 */
 
