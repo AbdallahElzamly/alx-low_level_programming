@@ -1,5 +1,4 @@
-#include <stdio>
-#include "main.h"
+#include <stdio.h>
 /**
  * print_array - prints n elements of the inputed arr
  * @a: array to be printed
