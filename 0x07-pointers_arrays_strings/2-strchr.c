@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * _strchr - prints from the first occurrence of a char.
+ * @s: source string
+ * @c: tested char
+ *
+ * Return: new string.
+ */
+char *_strchr(char *s, char c)
+{
+	int i = 0;
+
+	for (; s[i]; i++)
+	{
+		if (s[i] == c)
+			return (s + i);
+	}
+
+	return ('\0');
+}
