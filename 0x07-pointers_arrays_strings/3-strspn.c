@@ -18,5 +18,5 @@ unsigned int _strspn(char *s, char *accept)
 				return (i);
 		}
 	}
-	return NULL;
+	return ('\0');
 }	
