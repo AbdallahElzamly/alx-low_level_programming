@@ -1,4 +1,5 @@
 #include "main.h"
+int sqr(int n, int val);
 
 /**
  * _sqrt_recursion - return the sqrt of a natural number.
@@ -7,8 +8,7 @@
  *
  * Return: sqrt 0 if sqrt is not natural.
  */
-
-int  _sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	return (sqr(n, 1));
 }
