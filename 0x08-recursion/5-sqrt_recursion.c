@@ -8,7 +8,6 @@
  * Return: sqrt 0 if sqrt is not natural.
  */
 
-int sqr(int n, int val);
 int  _sqrt_recursion(int n)
 {
 	return (sqr(n, 1));
