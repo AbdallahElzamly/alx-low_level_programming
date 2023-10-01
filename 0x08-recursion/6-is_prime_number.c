@@ -31,5 +31,5 @@ int check(int n, int lim)
 	if (n % lim == 0)
 		return (0);
 	else
-		check(n, lim - 1);
+		return (check(n, lim - 1));
 }
