@@ -11,7 +11,8 @@ int hlp(char *s, int start, int end);
 int is_palindrome(char *s)
 {
 	int start = 0, end = strlen(s) - 1;
-	return hlp(s, start, end);
+
+	return (hlp(s, start, end));
 }
 
 /**
@@ -28,7 +29,7 @@ int hlp(char *s, int start, int end)
 	if (start >= end)
 		return (s[start] == s[end]);
 	if (s[start] != s[end])
-		return 0;
+		return (0);
 	else
-		return hlp(s, start + 1, end - 1);
+		return (hlp(s, start + 1, end - 1));
 }
