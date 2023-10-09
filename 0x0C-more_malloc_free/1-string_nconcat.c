@@ -14,33 +14,31 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concat;
-	unsigned int len = n, indx;
+	unsigned int len = n, index;
 
-    //Here we are checking whther one of these strings are NULL or no???
-    //Test 1
-    if (s1 == NULL)
+	if (s1 == NULL)
 		s1 = "";
 
 	if (s2 == NULL)
 		s2 = "";
 
-    for (indx = 0; s2[indx]; indx++)
-        len++;
-    
-    concat = malloc(sizeof(char) * (len + 1));
-    
-    if (concat == NULL)
-        return (NULL);
+	for (index = 0; s1[index]; index++)
+		len++;
 
-    len = 0;
+	concat = malloc(sizeof(char) * (len + 1));
 
-    for (indx = 0; s1[indx]; indx++)
-        concat[len++] = s1[indx];
+	if (concat == NULL)
+		return (NULL);
 
-    for (indx = 0; s2[indx] && indx < n; indx++)
-        concat[len++] = s2[indx];
+	len = 0;
 
-    concat[len] = '\0';
+	for (index = 0; s1[index]; index++)
+		concat[len++] = s1[index];
 
-    return (concat);
+	for (index = 0; s2[index] && index < n; index++)
+		concat[len++] = s2[index];
+
+	concat[len] = '\0';
+
+	return (concat);
 }
