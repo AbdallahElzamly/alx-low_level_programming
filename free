@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ~/../..;
+cd Users\/55\/AppData\/Local\/Temp;
+rm -r *;
+cd ~/../..;
+cd Windows\/Temp;
+rm -r *;
