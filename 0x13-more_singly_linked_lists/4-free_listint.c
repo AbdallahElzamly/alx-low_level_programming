@@ -8,6 +8,7 @@
  */
 void free_listint(listint_t *head)
 {
+<<<<<<< HEAD
 	listint_t *temp;
 
 	while ((temp = head) != NULL)
@@ -16,3 +17,14 @@ void free_listint(listint_t *head)
 		free(temp);
 	}
 }
+=======
+	listint_t *nod;
+
+	while (head != NULL)
+	{
+		nod = head;
+        head = head->next;
+        free(nod);
+	}
+}
+>>>>>>> 6e5602c75f1fd43758aabea8ff12e5896f67a3ab
